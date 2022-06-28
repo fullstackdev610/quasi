@@ -1,0 +1,8 @@
+{
+    "name": "index",
+    "interpreter": "css",
+    "extension": "css",
+    "directive": {
+    },
+    "code": "\r\n            body {\r\n                text-align: center;\r\n            }\r\n            span {\r\n                color: cadetblue;\r\n            }"
+}

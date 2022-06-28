@@ -1,0 +1,49 @@
+[
+    {
+      "route": "/hello-world",
+      "template": "foundation",
+      "interpreter": "html",
+      "document": "agency",
+      "content": "content/hello/hello.json",
+      "protected": false
+    },
+    {
+      "route": "/hello",
+      "template": "foundation",
+      "interpreter": "html",
+      "document": "blog",
+      "content": "content/hello/hello.json",
+      "protected": false
+    },
+    {
+      "route": "/world",
+      "template": "foundation",
+      "document": "product-page",
+      "content": "content/hello/hello.json",
+      "protected": false
+    },
+    {
+      "route": "/version",
+      "template": "version",
+      "interpreter": "html",
+      "document": "",
+      "content": "../package.json",
+      "protected": false
+    },
+    {
+      "route": "/ken",
+      "template": "ken",
+      "interpreter": "html",
+      "document": "",
+      "content": "",
+      "protected": false
+    },
+    {
+      "route": "/public",
+      "static": true
+    },
+    {
+      "content": "assets/img/favicon.ico",
+      "favicon": true
+    }
+]

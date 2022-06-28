@@ -1,0 +1,3 @@
+#!/bin/bash 
+
+echo "Automated commit to git repository from the package.json assuming ssh is configured"

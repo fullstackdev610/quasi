@@ -1,0 +1,3 @@
+#!/bin/bash 
+
+echo "Basically just copying the bin folder to wherever"

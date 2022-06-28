@@ -1,0 +1,97 @@
+{
+  "$schema": "quasiwysiwyg.com/content/code/language.schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "id": "name"
+    },
+    "interpreter": {
+      "type": "string",
+      "minLength": 1,
+      "id": "interpreter"
+    },
+    "extension": {
+      "type": "string",
+      "minLength": 1,
+      "id": "extension"
+    },
+    "scripts": {
+      "type": "object",
+      "properties": {
+        "headStart": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": "headStart"
+        },
+        "headEnd": {
+          "type": "array",
+          "items": {},
+          "id": "headEnd"
+        },
+        "bodyStart": {
+          "type": "array",
+          "items": {},
+          "id": "bodyStart"
+        },
+        "bodyEnd": {
+          "type": "array",
+          "items": {},
+          "id": "bodyEnd"
+        }
+      },
+      "id": "scripts"
+    },
+    "directive": {
+      "type": "object",
+      "properties": {
+        "#version span": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#version span"
+        },
+        "#author span": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#author span"
+        },
+        "#sitename span": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#sitename span"
+        },
+        "#description span": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#description span"
+        },
+        "#license span": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#license span"
+        },
+        "#code@href": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#code@href"
+        },
+        "#bugs@href": {
+          "type": "string",
+          "minLength": 1,
+          "id": "#bugs@href"
+        }
+      },
+      "id": "directive"
+    },
+    "code": {
+      "type": "string",
+      "minLength": 1,
+      "id": "code"
+    }
+  },
+  "id": "/"
+}

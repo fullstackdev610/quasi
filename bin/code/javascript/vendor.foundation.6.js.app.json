@@ -1,0 +1,6 @@
+{
+  "code": "$(document).foundation()\n",
+  "name": "idontknow",
+  "interpreter": "javascript",
+  "extension": "js"
+}

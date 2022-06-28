@@ -1,0 +1,62 @@
+{
+  "name": "quasi",
+  "version": "0.2.0",
+  "description": "QUASI framework - an express based framework intended to provide all of the features you would need to run a simple webserver from simple configuration files that inform the app how it should serve your html pages, using a DOM structure based templating engine that enables developers to create their templates without a tightly coupled content management system.",
+  "author": "Ken Eucker <keneucker@gmail.com>",
+  "contributors": [],
+  "bin": {},
+  "scripts": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KenEucker/quasi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KenEucker/quasi/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "lodash": "^4.17.2",
+    "nodemailer": "^2.7.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth-jwt": "^0.2.2",
+    "path": "^0.12.7",
+    "require-from-string": "^1.2.1",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-change": "^1.0.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-json-transform": "^0.4.2",
+    "gulp-less": "^3.3.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "vinyl-fs": "^2.4.4"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "History.md",
+    "README.md",
+    "index.js",
+    "quasi",
+    "middleware",
+    "configuration",
+    "content",
+    "bin",
+    "build",
+    "vendor"
+  ],
+  "license": "Unlicense"
+}

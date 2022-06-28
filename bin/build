@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+echo "Building QUASI app"
+gulp --gulpfile quasi/build.js

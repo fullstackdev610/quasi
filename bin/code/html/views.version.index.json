@@ -1,0 +1,21 @@
+{
+    "name": "index",
+    "interpreter": "html",
+    "extension": "html",
+    "scripts": {
+        "headStart" : [ "<link rel='stylesheet' href='index.css'>" ],
+        "headEnd" : [],
+        "bodyStart" : [],
+        "bodyEnd" : []
+    },
+    "directive": {
+        "#version span": "version",
+        "#author span": "author",
+        "#sitename span": "name",
+        "#description span": "description",
+        "#license span": "license",
+        "#code@href": "repository.url",
+        "#bugs@href": "bugs.url"
+    },
+    "code": "<html>\r\n    <head>\r\n\r\n <link rel='stylesheet' href='index.css'>   <\/head>\r\n    <body>\r\n        <h2 id=\"version\">Version <span><\/span><\/h2>\r\n        <h4 id=\"author\">Author <span><\/span><\/h4>\r\n        <h4 id=\"sitename\">Name <span><\/span><\/h4>\r\n        <h4 id=\"description\">Description <span><\/span><\/h4>\r\n        <h4 id=\"license\">Software License <span><\/span><\/h4>\r\n        <p>\r\n            This website is open source and the code is hosted on GitHub\r\n        <\/p>\r\n        <a id=\"code\">Check out the code here<\/a>\r\n        <a id=\"bugs\">Report software bugs here<\/a>\r\n\r\n\t    <script src=\"http:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.9.1\/jquery.min.js\"><\/script> \r\n\t\t<script>\r\n\t\t\twindow.jQuery || document.write('<script src=\"..\/..\/vendor\/jquery\/1.9.1\/jquery.min.js\"><\\\/script>')\r\n\t\t<\/script>\r\n    \r\n    <!--<script src=\"..\/..\/vendor\/jquery\/1.9.1\/jquery.min.js\"><\/script>-->\r\n    <script src=\"..\/..\/vendor\/foundation\/6\/js\/foundation.min.js\"><\/script>\r\n    <script>\r\n      $(document).foundation();\r\n    <\/script>\r\n   <\/body>\r\n<\/html>"
+}

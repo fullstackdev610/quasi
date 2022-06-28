@@ -1,0 +1,12 @@
+{
+  "code": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n    <head><head> \r\n    <body>\r\n        <h1>WELCOME TO THE QUASI INDEX<\/h1> \r\n        <p>\r\n            You probably shoulnd't be seeing this, but because you are here are the routes I can see at the time of the build: <span><\/span>\r\n        <\/p>\r\n        <div id=\"routes\">\r\n        <\/div>\r\n    <\/body>\r\n<\/html>",
+  "name": "idontknow",
+  "interpreter": "html",
+  "extension": "html",
+  "scripts": {
+    "headStart": [],
+    "headEnd": [],
+    "bodyStart": [],
+    "bodyEnd": []
+  }
+}

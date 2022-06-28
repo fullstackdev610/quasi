@@ -1,0 +1,12 @@
+{
+  "code": "window.page.directive = {\n    '.menu .menu-text': 'title',\n    '.callout .row > h1': 'heading',\n    '.callout .row > p': 'description',\n}",
+  "name": "idontknow",
+  "interpreter": "html",
+  "extension": "html",
+  "scripts": {
+    "headStart": ["<link rel='stylesheet' href='index.css'>"],
+    "headEnd": [],
+    "bodyStart": [],
+    "bodyEnd": []
+  }
+}
